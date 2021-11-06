@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>Animation</title>
+</head>
+
+<body style="background-color: rgb(230, 106, 106);">
+    <p
+        style="font-family:Georgia, 'Times New Roman', Times, serif;font-size: 30;color: rgb(4, 4, 131);color: whitesmoke;">
+        🔴 This is code for make animation in html webpage with the helo of CSS</p>
+    <p style="font-size:30;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: whitesmoke;">
+        🔴 here we go👇</p>
+    <p>
+    <pre><p style="color: purple;background-color: wheat;"><u>don't put space in tag when you make webpage</u></p>
+< !DOCTYPE html>
+< html lang="en">
+
+< head>
+    < meta charset="UTF-8">
+    < meta name="viewport" content="width=device-width, initial-scale=1.0">
+    < title>Document< /title>
+    < link rel="stylesheet" href="animation.css">
+    < link rel="stylesheet" href="animation1.css">
+< /head>
+
+< body>
+    < div class="container">
+            < img src="C:\Users\My PC\Desktop\Program.html\New folder (2)\airplane.png" class="airplane"/> <img src="C:\Adnan\Programming\airplane.png" alt="not found" height="50px" width="50px">
+            < img src="C:\Users\My PC\Desktop\Program.html\New  folder (2)\ship.png" class="ship"> <img src="C:\Adnan\Programming\ship.png" alt="not found" height="50px" width="50px">
+    < /div>
+< /body>
+
+< /html>
+
+        <p style="color: purple;color: wheat;">here is CSS files👇</p>
+        <p style="color:whitesmoke;">(1)</p>code for animation.css files👇
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            background-image: url(mountain.jpg); <img src="C:\Adnan\Programming\mountain.jpg" alt="not found" height="50px" width="50px"/>
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .airplane{
+            width: 200px;
+            position: absolute;
+            right: -200px;
+            animation: plan 10s linear infinite;
+            transform-origin: 100%
+        }
+        @keyframes plan{
+            100%{
+                transform: translateX(-1300px)
+            }
+        }
+
+        
+        <p style="color: whitesmoke;">(2)</p>code for animation1.css files👇
+
+        .ship{
+            width: 300px;
+            position: absolute;
+            bottom: 0;
+            right: -230px;
+            animation: plan 15s linear infinite;
+            transform-style: 100%;
+        }
+        @keyframes ship{
+            100%{
+                transform: translateX(-3000px)
+            }
+        }
+        
+        </pre>
+    <p style="color: rgb(0, 0, 0);color: whitesmoke;font-size: 30;">🔴 make this two CSS files and link with HTML file.
+        <br>
+        🔴 <u>Tap to see the</u> <a
+            href="file:///C:/Adnan/Programming/index.html">Output.</a>
+    </p>
+
+    </p>
+</body>
+
+</html>

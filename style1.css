@@ -1,0 +1,13 @@
+.ship{
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    right: -230px;
+    animation: plan 15s linear infinite;
+    transform-style: 100%;
+}
+@keyframes ship{
+    100%{
+        transform: translateX(-3000px)
+    }
+}
